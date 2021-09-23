@@ -13,6 +13,10 @@
 		B43D02F826FCBF60006A2ABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B43D02F726FCBF60006A2ABE /* Assets.xcassets */; };
 		B43D02FB26FCBF60006A2ABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B43D02F926FCBF60006A2ABE /* LaunchScreen.storyboard */; };
 		B43D030326FCC146006A2ABE /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43D030226FCC146006A2ABE /* TableViewController.swift */; };
+		B43D030C26FCC82F006A2ABE /* Screen3.png in Resources */ = {isa = PBXBuildFile; fileRef = B43D030826FCC82E006A2ABE /* Screen3.png */; };
+		B43D030D26FCC82F006A2ABE /* Screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = B43D030926FCC82F006A2ABE /* Screen2.png */; };
+		B43D030E26FCC82F006A2ABE /* Screen4.png in Resources */ = {isa = PBXBuildFile; fileRef = B43D030A26FCC82F006A2ABE /* Screen4.png */; };
+		B43D030F26FCC82F006A2ABE /* Screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = B43D030B26FCC82F006A2ABE /* Screen1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		B43D02FA26FCBF60006A2ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B43D02FC26FCBF60006A2ABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B43D030226FCC146006A2ABE /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B43D030826FCC82E006A2ABE /* Screen3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen3.png; sourceTree = "<group>"; };
+		B43D030926FCC82F006A2ABE /* Screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen2.png; sourceTree = "<group>"; };
+		B43D030A26FCC82F006A2ABE /* Screen4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen4.png; sourceTree = "<group>"; };
+		B43D030B26FCC82F006A2ABE /* Screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			children = (
 				B43D030426FCC1B6006A2ABE /* Aplication */,
 				B43D030526FCC1C8006A2ABE /* Controllers */,
+				B43D030726FCC763006A2ABE /* Screen */,
 				B43D030626FCC1DF006A2ABE /* Resources */,
 			);
 			path = "UIKit-AnimatedTableView";
@@ -89,6 +98,17 @@
 				B43D02FC26FCBF60006A2ABE /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B43D030726FCC763006A2ABE /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B43D030B26FCC82F006A2ABE /* Screen1.png */,
+				B43D030926FCC82F006A2ABE /* Screen2.png */,
+				B43D030826FCC82E006A2ABE /* Screen3.png */,
+				B43D030A26FCC82F006A2ABE /* Screen4.png */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +168,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43D030D26FCC82F006A2ABE /* Screen2.png in Resources */,
+				B43D030F26FCC82F006A2ABE /* Screen1.png in Resources */,
+				B43D030E26FCC82F006A2ABE /* Screen4.png in Resources */,
 				B43D02FB26FCBF60006A2ABE /* LaunchScreen.storyboard in Resources */,
+				B43D030C26FCC82F006A2ABE /* Screen3.png in Resources */,
 				B43D02F826FCBF60006A2ABE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
