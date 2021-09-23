@@ -56,15 +56,39 @@
 		B43D02ED26FCBF5F006A2ABE /* UIKit-AnimatedTableView */ = {
 			isa = PBXGroup;
 			children = (
+				B43D030426FCC1B6006A2ABE /* Aplication */,
+				B43D030526FCC1C8006A2ABE /* Controllers */,
+				B43D030626FCC1DF006A2ABE /* Resources */,
+			);
+			path = "UIKit-AnimatedTableView";
+			sourceTree = "<group>";
+		};
+		B43D030426FCC1B6006A2ABE /* Aplication */ = {
+			isa = PBXGroup;
+			children = (
 				B43D02EE26FCBF5F006A2ABE /* AppDelegate.swift */,
 				B43D02F026FCBF5F006A2ABE /* SceneDelegate.swift */,
+			);
+			path = Aplication;
+			sourceTree = "<group>";
+		};
+		B43D030526FCC1C8006A2ABE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				B43D02F226FCBF5F006A2ABE /* ViewController.swift */,
 				B43D030226FCC146006A2ABE /* TableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B43D030626FCC1DF006A2ABE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				B43D02F726FCBF60006A2ABE /* Assets.xcassets */,
 				B43D02F926FCBF60006A2ABE /* LaunchScreen.storyboard */,
 				B43D02FC26FCBF60006A2ABE /* Info.plist */,
 			);
-			path = "UIKit-AnimatedTableView";
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -280,7 +304,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XRTUKAGRTL;
-				INFOPLIST_FILE = "UIKit-AnimatedTableView/Info.plist";
+				INFOPLIST_FILE = "UIKit-AnimatedTableView/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,7 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XRTUKAGRTL;
-				INFOPLIST_FILE = "UIKit-AnimatedTableView/Info.plist";
+				INFOPLIST_FILE = "UIKit-AnimatedTableView/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
